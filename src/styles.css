@@ -109,3 +109,43 @@ img.logo {
   background-color: #ffc0cb;
   color: #fff;
 }
+
+/* feature section*/
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#feature .feature-box {
+  border: 1px solid #c9c9c9;
+  border-radius: 2px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  width: 180px;
+  text-align: center;
+  margin: 15px 0;
+  padding: 25px 15px;
+  transition: all 250ms ease-in-out;
+}
+
+#feature .feature-box:hover {
+  background-color: #fdf3f5;
+  box-shadow: 10px 10px 44px rgba(0, 0, 0, 0.2);
+}
+
+#feature .feature-box img {
+  width: 100%;
+  padding-top: 15px;
+}
+
+#feature .feature-box h4 {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 9px 8px 6px 8px;
+}
