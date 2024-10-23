@@ -1,9 +1,54 @@
 body {
   color: #333;
-  font-family: "Cormorant", sans-serif;
+  /* font-family: "Cormorant", sans-serif; */
+  font-family: "Nunito", sans-serif;
   width: 100%;
 }
 
 img.logo {
-  width: 80px;
+  width: 100px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  padding: 0 80px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 20px;
+  position: relative;
+}
+
+#navbar li a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a .active {
+  color: #ffc0cb;
+}
+
+#navbar li a .active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 55%;
+  height: 2px;
+  background-color: #ffc0cb;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
 }
