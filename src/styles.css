@@ -149,3 +149,83 @@ img.logo {
   line-height: 1.5;
   padding: 9px 8px 6px 8px;
 }
+
+/* collection section*/
+#collection-1 {
+  text-align: center;
+}
+
+#collection-1 h2 {
+  font-size: 68px;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+#collection-1 .collections-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+#collection-1 .collections {
+  position: relative;
+  border: 1px solid #c9c9c9;
+  border-radius: 2px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  width: 23%;
+  min-width: 250px;
+  margin: 20px 0;
+  padding: 10px 12px;
+  transition: all 250ms ease-in-out;
+}
+
+#collection-1 .collections:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+#collection-1 .collections img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+#collection-1 .collections .description {
+  text-align: start;
+}
+
+#collection-1 .collections .description span {
+  font-size: 16px;
+}
+
+#collection-1 .collections .description h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px 0 15px 0;
+}
+
+#collection-1 .collections .description i {
+  color: #6b6b6b;
+  font-size: 16px;
+}
+
+#collection-1 .collections .description h5 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 5px 0 15px;
+}
+
+#collection-1 .collections .description .cart {
+  color: #fff;
+  background-color: #ffc0cb;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
