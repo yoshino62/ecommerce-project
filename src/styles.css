@@ -466,6 +466,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 footer .col {
@@ -510,10 +511,6 @@ footer a {
   text-decoration: none;
   margin-bottom: 10px;
   transition: all 250ms ease-in-out;
-}
-
-footer {
-  margin-top: 200px;
 }
 
 footer .follow {
