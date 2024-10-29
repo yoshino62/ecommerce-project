@@ -86,6 +86,11 @@ img.logo {
   left: 24px;
 }
 
+#mobile {
+  display: none;
+  align-items: center;
+}
+
 /* Home Page */
 #hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
@@ -563,4 +568,37 @@ footer p a {
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+/* Media Query */
+@media (max-width: 960px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 1080px;
+    width: 300px;
+    background-color: #fafafa;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+  }
+
+  #navbar li {
+    margin-bottom: 10px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #6b6b6b;
+    font-size: 24px;
+    padding-left: 24px;
+  }
 }
