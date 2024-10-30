@@ -576,6 +576,10 @@ footer p a:hover {
 
 /* Media Query */
 @media (max-width: 960px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
   #navbar {
     display: flex;
     flex-direction: column;
@@ -637,5 +641,13 @@ footer p a:hover {
   #hero h2 {
     font-size: 38px;
     padding-bottom: 80px;
+  }
+
+  #feature {
+    justify-content: center;
+  }
+
+  #feature .feature-box {
+    margin: 15px 15px;
   }
 }
