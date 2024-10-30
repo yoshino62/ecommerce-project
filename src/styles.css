@@ -650,4 +650,12 @@ footer p a:hover {
   #feature .feature-box {
     margin: 15px 15px;
   }
+
+  #collection-1 .collections-container {
+    justify-content: center;
+  }
+
+  #collection-1 .collections {
+    margin: 15px;
+  }
 }
