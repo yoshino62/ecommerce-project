@@ -623,4 +623,19 @@ footer p a:hover {
   #lg-bag {
     display: none;
   }
+
+  #hero {
+    width: 100%;
+    height: 960px;
+    opacity: 0.8;
+  }
+
+  #hero h1 {
+    font-size: 48px;
+  }
+
+  #hero h2 {
+    font-size: 38px;
+    padding-bottom: 80px;
+  }
 }
