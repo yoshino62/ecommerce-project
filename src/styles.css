@@ -278,6 +278,7 @@ img.logo {
 }
 
 #banner h3 {
+  color: #fff;
   font-size: 38px;
   letter-spacing: 2px;
   margin-bottom: 0;
@@ -285,7 +286,7 @@ img.logo {
 }
 
 #banner h3 span {
-  color: #fff;
+  color: #8b0000;
   font-style: italic;
 }
 
@@ -657,5 +658,10 @@ footer p a:hover {
 
   #collection-1 .collections {
     margin: 15px;
+  }
+
+  #banner {
+    width: 100%;
+    height: 400px;
   }
 }
