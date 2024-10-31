@@ -678,4 +678,8 @@ footer p a:hover {
   #banner3 .banner-box {
     min-width: 28%;
   }
+
+  #newsletter .form {
+    width: 70%;
+  }
 }
