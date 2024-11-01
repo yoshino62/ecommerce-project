@@ -683,3 +683,103 @@ footer p a:hover {
     width: 70%;
   }
 }
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 20px 20px;
+  }
+
+  #header {
+    padding: 10px 30px;
+  }
+
+  #hero {
+    padding: 5px;
+  }
+
+  #hero h1 {
+    font-size: 38px;
+  }
+
+  #hero h2 {
+    font-size: 28px;
+  }
+
+  #feature {
+    justify-content: space-between;
+  }
+
+  #collection-1 h2 {
+    font-size: 38px;
+  }
+
+  #feature .feature-box {
+    width: 120px;
+    margin: 0 0 15px 0;
+  }
+
+  #collection-1 .collections {
+    width: 100%;
+  }
+
+  #banner p {
+    font-size: 48px;
+  }
+
+  #banner h3 {
+    font-size: 28px;
+  }
+
+  #small-banner .banner-box {
+    height: 320px;
+  }
+
+  #small-banner .banner-box2 {
+    margin-top: 20px;
+  }
+
+  #banner3 {
+    padding: 0 20px;
+  }
+
+  #banner3 .banner-box {
+    width: 100%;
+  }
+
+  #newsletter {
+    padding: 40px 20px;
+  }
+
+  #newsletter .form {
+    width: 100%;
+  }
+
+  footer .logo {
+    width: 120px;
+    margin-bottom: 40px;
+  }
+
+  footer .about h5 {
+    margin-top: 20px;
+  }
+
+  footer .account h5 {
+    margin-top: 20px;
+  }
+
+  footer .install h5 {
+    margin-top: 20px;
+  }
+
+  footer .copyright {
+    margin: 30px 0 20px;
+  }
+
+  footer p.coder-info {
+    font-size: 8px;
+    opacity: 0.8;
+  }
+  footer p a {
+    font-size: 8px;
+  }
+}
