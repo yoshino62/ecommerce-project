@@ -952,6 +952,8 @@ footer p a:hover {
     font-size: 8px;
   }
 
+  /* Shop page */
+
   #page-header h1 {
     font-size: 34px;
     text-align: center;
@@ -962,5 +964,20 @@ footer p a:hover {
     font-size: 14px;
     text-align: center;
     padding-left: 0;
+  }
+
+  /* Singel product */
+  #pro-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #pro-details .single-pro-image {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  #pro-details .single-pro-details {
+    width: 100%;
   }
 }
