@@ -407,7 +407,7 @@ img.logo {
 /* Newsletter section */
 
 #newsletter {
-  background-image: url(../images/newletter.png);
+  background-image: url("../images/newletter.png");
   background-repeat: no-repeat;
   background-position: 20% 80%;
   display: flex;
@@ -630,6 +630,10 @@ footer p a:hover {
 }
 
 /* Single product page */
+#pro-details {
+  display: flex;
+  margin-top: 20px;
+}
 
 #pro-details .single-pro-image {
   width: 40%;
@@ -644,6 +648,74 @@ footer p a:hover {
 .small-img-col {
   flex-basis: 24%;
   cursor: pointer;
+}
+
+#pro-details .single-pro-details {
+  width: 50%;
+  padding-top: 5px;
+}
+
+#pro-details .single-pro-details h3 {
+  font-size: 38px;
+  padding: 10px 0 20px 0;
+  margin: 0;
+}
+
+#pro-details .single-pro-details h4 {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px 0 10px 0;
+  margin: 0;
+}
+
+#pro-details .single-pro-details h6 {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px 0;
+  margin: 0;
+}
+
+#pro-details .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#pro-details .single-pro-details input {
+  font-size: 16px;
+  width: 35px;
+  height: 32px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+#pro-details .single-pro-details input:focus {
+  outline: none;
+}
+
+#pro-details .single-pro-details button {
+  display: inline;
+  margin: 0 auto;
+  background-color: #8b0000;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 15px;
+  transition: all 200ms ease-in-out;
+}
+
+#pro-details .single-pro-details button:hover {
+  cursor: pointer;
+  background-color: #8b0000;
+  color: #fff;
+  opacity: 0.5;
+}
+
+#pro-details .single-pro-details span {
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /* Media Query */
