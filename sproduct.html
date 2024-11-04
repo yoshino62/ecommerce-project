@@ -71,15 +71,15 @@
                 </div>
 
                 <div class="small-img-col">
-                    <img src="images/antique.chair.png" width="100%" class="small-img" alt="Antique Chair" />
+                    <img src="images/antique.chair2.png" width="100%" class="small-img" alt="Antique Chair" />
                 </div>
 
                 <div class="small-img-col">
-                    <img src="images/antique.chair.png" width="100%" class="small-img" alt="Antique Chair" />
+                    <img src="images/antique.chair3.png" width="100%" class="small-img" alt="Antique Chair" />
                 </div>
 
                 <div class="small-img-col">
-                    <img src="images/antique.chair.png" width="100%" class="small-img" alt="Antique Chair" />
+                    <img src="images/antique.chair4.png" width="100%" class="small-img" alt="Antique Chair" />
                 </div>
 
             </div>
@@ -296,6 +296,28 @@
             hosted on <a href="https://bejewelled-melba-a1cd2a.netlify.app/" target="_blank"> Netlify</a>.</p>
 
     </footer>
+
+    <script>
+        var mainImg = document.getElementById("mainImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function () {
+            mainImg.src = smallImg[0].src;
+        }
+
+        smallImg[1].onclick = function () {
+            mainImg.src = smallImg[1].src;
+        }
+
+        smallImg[2].onclick = function () {
+            mainImg.src = smallImg[2].src;
+        }
+
+        smallImg[3].onclick = function () {
+            mainImg.src = smallImg[3].src;
+        }
+
+    </script>
 
     <script src="src/app.js"></script>
 
