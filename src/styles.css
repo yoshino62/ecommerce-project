@@ -729,6 +729,7 @@ footer p a:hover {
   letter-spacing: 10px;
   text-align: center;
   padding: 120px 0 30px 0;
+  margin-top: 0;
 }
 
 #page-header.blog-header h2 {
