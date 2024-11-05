@@ -140,7 +140,8 @@ img.logo {
 
 #feature {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
   align-items: center;
   justify-items: center;
 }
@@ -965,7 +966,7 @@ footer p a:hover {
   }
 
   #feature {
-    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   #feature .feature-box {
@@ -1050,7 +1051,7 @@ footer p a:hover {
   }
 
   #feature {
-    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   #collection-1 h2 {
@@ -1196,6 +1197,43 @@ footer p a:hover {
   }
 
   #blog .blo-details {
+    width: 100%;
+  }
+
+  /* About page */
+  #page-header.about-header h1 {
+    font-size: 38px;
+  }
+
+  #page-header.about-header h2 {
+    font-size: 18px;
+    padding: 0 5px;
+  }
+
+  #about-head {
+    flex-direction: column;
+    margin: 50px 0 50px;
+  }
+
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div {
+    padding-left: 0;
+  }
+
+  #about-app {
+    margin: 50px 0 50px 0;
+  }
+
+  #about-app h1 {
+    font-size: 38px;
+    margin: 20px 0 20px;
+  }
+
+  #about-app .video {
     width: 100%;
   }
 }
