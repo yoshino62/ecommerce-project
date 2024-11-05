@@ -29,7 +29,7 @@ button.normal {
 
 button.normal:hover {
   cursor: pointer;
-  background-color: #ffc0cb;
+  background-color: #8b0000;
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ img.logo {
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #ffc0cb;
+  color: #8b0000;
 }
 
 #navbar li a .active::after,
@@ -80,7 +80,7 @@ img.logo {
   content: "";
   width: 55%;
   height: 2px;
-  background-color: #ffc0cb;
+  background-color: #8b0000;
   position: absolute;
   bottom: -2px;
   left: 24px;
@@ -132,7 +132,7 @@ img.logo {
 
 #hero button:hover {
   cursor: pointer;
-  background-color: #ffc0cb;
+  background-color: #8b0000;
   color: #fff;
 }
 
@@ -237,7 +237,7 @@ img.logo {
 
 #collection-1 .collections .description .cart {
   color: #fff;
-  background-color: #ffc0cb;
+  background-color: #8b0000;
   border-radius: 50px;
   width: 30px;
   height: 30px;
@@ -349,7 +349,7 @@ img.logo {
 
 #small-banner button:hover {
   cursor: pointer;
-  background-color: #ffc0cb;
+  background-color: #8b0000;
   color: #fff;
 }
 
@@ -610,7 +610,7 @@ footer p a:hover {
 }
 
 #pagination a {
-  background-color: #ffc0cb;
+  background-color: #8b0000;
   border-radius: 4px;
   color: #fff;
   font-size: 18px;
