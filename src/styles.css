@@ -921,6 +921,26 @@ footer p a:hover {
   #newsletter .form {
     width: 70%;
   }
+
+  /* Blog page */
+  #blog .blo-details h4 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+
+  #blog .blo-details p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 0;
+  }
+
+  #blog .blo-details a {
+    font-size: 12px;
+  }
+
+  #blog .blog-box h1 {
+    top: -65px;
+  }
 }
 
 @media (max-width: 477px) {
