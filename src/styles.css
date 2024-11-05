@@ -742,6 +742,63 @@ footer p a:hover {
   padding: 150px 150px 0 150px;
 }
 
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+
+#blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#blog .blo-details {
+  width: 50%;
+}
+
+#blog .blo-details a {
+  color: #8b0000;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+  transition: all 300ms ease-in-out;
+}
+
+#blog .blo-details a::after {
+  background-color: #8b0000;
+  content: "";
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  top: 4px;
+  right: -60px;
+}
+
+#blog .blo-details a:hover {
+  opacity: 0.4;
+}
+
+#blog .blog-box h1 {
+  color: #6b6b6b;
+  opacity: 0.6;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0;
+  z-index: -9;
+}
+
 /* Media Query */
 @media (max-width: 960px) {
   .section-p1 {
