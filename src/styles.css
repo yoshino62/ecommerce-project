@@ -738,6 +738,10 @@ footer p a:hover {
   padding: 0;
 }
 
+#blog {
+  padding: 150px 150px 0 150px;
+}
+
 /* Media Query */
 @media (max-width: 960px) {
   .section-p1 {
