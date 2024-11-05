@@ -836,6 +836,7 @@ footer p a:hover {
 #about-head {
   display: flex;
   align-items: center;
+  margin: 120px 0 120px;
 }
 
 #about-head img {
@@ -861,6 +862,37 @@ footer p a:hover {
   line-height: 1.5;
   margin: 0;
   padding-bottom: 10px;
+}
+
+#about-app {
+  text-align: center;
+  margin: 100px 0;
+}
+
+#about-app h1 {
+  font-size: 48px;
+  font-style: italic;
+  margin: 150px 0 80px;
+}
+
+#about-app a {
+  color: #8b0000;
+}
+
+#about-app a:hover {
+  opacity: 50%;
+}
+
+#about-app .video {
+  width: 70%;
+  height: auto;
+  margin: 30px auto 0 auto;
+}
+
+#about-app .video video {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
 /* Media Query */
