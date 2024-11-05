@@ -811,6 +811,28 @@ footer p a:hover {
   z-index: -9;
 }
 
+/* About page */
+
+#page-header.about-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    url("../images/about.header.png");
+}
+
+#page-header.about-header h1 {
+  font-size: 58px;
+  letter-spacing: 10px;
+  text-align: center;
+  padding: 120px 0 30px 0;
+  margin-top: 0;
+}
+
+#page-header.about-header h2 {
+  font-size: 28px;
+  font-weight: 200;
+  text-align: center;
+  padding: 0;
+}
+
 /* Media Query */
 @media (max-width: 960px) {
   .section-p1 {
