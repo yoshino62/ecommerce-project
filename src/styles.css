@@ -833,6 +833,36 @@ footer p a:hover {
   padding: 0;
 }
 
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+
+#about-head div {
+  padding-left: 40px;
+}
+
+#about-head h2 {
+  font-size: 38px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#about-head p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
 /* Media Query */
 @media (max-width: 960px) {
   .section-p1 {
