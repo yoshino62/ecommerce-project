@@ -918,6 +918,54 @@ footer p a:hover {
   padding: 0;
 }
 
+#contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contact-details .details {
+  width: 40%;
+}
+
+#contact-details .details span {
+  font-size: 16px;
+}
+
+#contact-details .details h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 10px 0 0 0;
+}
+
+#contact-details .details h2 {
+  font-size: 48px;
+  font-style: italic;
+  line-height: 1.5;
+  padding: 5px 0 10px 0;
+  margin: 0;
+}
+
+#contact-details .details ul {
+  padding-left: 0;
+}
+
+#contact-details .details li {
+  display: flex;
+  padding: 10px 0;
+  list-style: none;
+}
+
+#contact-details .details li i {
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+#contact-details .details li p {
+  font-size: 16px;
+  margin: 0;
+}
+
 /* Media Query */
 @media (max-width: 960px) {
   .section-p1 {
