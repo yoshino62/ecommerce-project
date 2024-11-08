@@ -1396,6 +1396,20 @@ footer p a:hover {
     flex-direction: column;
   }
 
+  #contact-details .details span,
+  #form-details form span {
+    font-size: 12px;
+  }
+
+  #contact-details .details h3 {
+    font-size: 18px;
+  }
+
+  #contact-details .details h2,
+  #form-details form h2 {
+    font-size: 30px;
+  }
+
   #contact-details .details {
     width: 100%;
     margin-bottom: 30px;
@@ -1403,5 +1417,24 @@ footer p a:hover {
 
   #contact-details .map {
     width: 100%;
+  }
+
+  #form-details {
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 30px 10px;
+  }
+
+  #form-details form {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #form-details form input,
+  #form-details form textarea {
+    width: 90%;
+    outline: none;
+    padding: 12px 15px;
+    margin-bottom: 20px;
   }
 }
