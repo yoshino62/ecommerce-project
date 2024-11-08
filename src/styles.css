@@ -1172,6 +1172,15 @@ footer p a:hover {
   #blog .blog-box h1 {
     top: -65px;
   }
+
+  /* Contact page */
+  #form-details {
+    padding: 30px;
+  }
+
+  #form-details form {
+    width: 50%;
+  }
 }
 
 @media (max-width: 477px) {
