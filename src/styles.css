@@ -1390,4 +1390,18 @@ footer p a:hover {
   #about-app .video {
     width: 100%;
   }
+
+  /* Contact page */
+  #contact-details {
+    flex-direction: column;
+  }
+
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #contact-details .map {
+    width: 100%;
+  }
 }
