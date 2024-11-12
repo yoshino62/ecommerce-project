@@ -1042,6 +1042,10 @@ footer p a:hover {
 }
 
 /* Cart page */
+#cart {
+  overflow-x: auto;
+}
+
 #cart table {
   width: 100%;
   border-collapse: collapse;
@@ -1316,6 +1320,16 @@ footer p a:hover {
 
   #form-details form {
     width: 50%;
+  }
+
+  /* Cart page */
+
+  #cart-add {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: 15px 40px;
   }
 }
 
