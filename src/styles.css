@@ -1162,6 +1162,21 @@ footer p a:hover {
   padding: 10px;
 }
 
+#subtotal button {
+  background-color: #8b0000;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 15px;
+  transition: all 200ms ease-in-out;
+}
+
+#subtotal button:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
 /* Media Query */
 @media (max-width: 960px) {
   .section-p1 {
