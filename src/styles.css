@@ -1101,18 +1101,21 @@ footer p a:hover {
 }
 
 #cart-add {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 80%;
+  margin: 30px 80px;
 }
 
-#coupon {
-  width: 50%;
+#coupon,
+#subtotal {
   margin-bottom: 30px;
 }
 
-#coupon h3 {
-  font-size: 32px;
+#coupon h3,
+#subtotal h3 {
+  font-size: 28px;
   padding-bottom: 15px;
 }
 
@@ -1138,6 +1141,25 @@ footer p a:hover {
 #coupon button:hover {
   cursor: pointer;
   opacity: 70%;
+}
+
+#subtotal {
+  border: 1px solid #c9c9c9;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+#subtotal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#subtotal table td {
+  font-size: 13px;
+  border: 1px solid #c9c9c9;
+  width: 50%;
+  padding: 10px;
 }
 
 /* Media Query */
