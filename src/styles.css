@@ -1596,4 +1596,23 @@ footer p a:hover {
     padding: 12px 15px;
     margin-bottom: 20px;
   }
+
+  /* Cart section */
+  #cart-add {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: 15px 20px;
+  }
+
+  #subtotal {
+    padding: 15px;
+  }
+
+  #coupon h3,
+  #subtotal h3 {
+    font-size: 28px;
+    margin: 10px;
+  }
 }
